@@ -1,3 +1,4 @@
+[#ftl]
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -8,8 +9,8 @@
     <link href="/css/style.css" rel="stylesheet">
     <link href="/images/favicon.png" rel="icon" type="image/png">
 </head>
-<body style="background-image: url(https://source.unsplash.com/RFHFV7lVQBY/1600x900);">
-<blockquote><strong>Debugging</strong> /de·bugh·ing/ <em>verb</em><br/>The Classic Mystery Game where you are the detective, the victim, and the murderer.
+<body style="background-image: url(${image});">
+<blockquote>${citat}
 </blockquote>
 </body>
 </html>
